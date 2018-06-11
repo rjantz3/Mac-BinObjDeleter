@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionModel>
+    <Runtime>
+    </Runtime>
+    <Extension path="/MonoDevelop/Ide/Commands/Project" >
+        <Command id="BinObjDeleter.DeleteCommands.DeleteCommand"
+            _label="Delete bin and obj folders" 
+            _description="Deletes the bin and obj folders of all the projects in a solution."
+            defaultHandler="BinObjDeleter.DeleteCommandHandler" />
+    </Extension>
+    <Extension path="/MonoDevelop/Ide/MainMenu/Build">
+        <CommandItem id="BinObjDeleter.DeleteCommands.DeleteCommand"/>
+    </Extension>
+</ExtensionModel>
